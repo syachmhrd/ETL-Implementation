@@ -125,6 +125,15 @@ StringHandling.UPCASE(row3.FirstName) +" "+ StringHandling.UPCASE(row3.LastName)
 
 Untuk membuat _Store Procedure_ bisa dengan melakukan hal berikut,
 
+<img width="456" alt="image" src="https://github.com/syachmhrd/ETL-Implementation/assets/71867027/48e0ddce-98ba-4bfb-b7c4-92fa69cf7dae">
+
+- Pada Programmability > Stored Procedures klik kanan
+- Pilih New
+- Pilih Stored Procedures
+
+<img width="959" alt="image" src="https://github.com/syachmhrd/ETL-Implementation/assets/71867027/2323cae1-7cfa-4429-9d31-630d63e02a02">
+
+Selanjutnya menulis query dari _Stored Procedures_ sesuai dengan perintah. 
 
 ```
 CREATE PROCEDURE summary_order_status
@@ -139,6 +148,8 @@ BEGIN
 END
 GO
 ```
+
+Selanjutnya untuk mengeksekusi atau menjalankan _Stored Procedures_ menggunakan perintah dibawah ini, dimana **@StatusID** dicontohkan dengan nilai 1
 
 ```
 EXEC [dbo].[summary_order_status] @StatusID = 1
