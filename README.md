@@ -2,7 +2,7 @@
 
 Data Warehouse and ETL Implementation
 
-Project ini merupakan tugas akhir dari ID/X Partners Data Engineer Virtual Internship Program yang diselenggarakan oleh Rakamin Academy.
+Project ini merupakan tugas akhir dari **ID/X Partners Data Engineer Virtual Internship Program** yang diselenggarakan oleh **Rakamin Academy**.
 Melalui program ini saya mempelajari berbagai hal tentang Data Engineer job terutama dalam proses ETL menggunakan Talend dan juga penggunaan 
 SQL Server untuk Data Engineer. Pada project ini para peserta di berikan case untuk menjalankan sebuah proses dari mendapatkan data hingga menggunakan data 
 dalam bentuk _Store Procedure_ di SQL Server untuk suatu keperluan.
@@ -121,7 +121,10 @@ StringHandling.UPCASE(row3.FirstName) +" "+ StringHandling.UPCASE(row3.LastName)
 ```
 <img width="959" alt="image" src="https://github.com/syachmhrd/ETL-Implementation/assets/71867027/3adc08c1-2a4e-4972-8c69-75d1e5eaf485">
 
-**4. Membuat Store Procedure untuk menampilkan summary sales order berdasarkan status pengiriman**
+**4. Membuat _Store Procedure_ untuk menampilkan summary sales order berdasarkan status pengiriman**
+
+Untuk membuat _Store Procedure_ bisa dengan melakukan hal berikut,
+
 
 ```
 CREATE PROCEDURE summary_order_status
