@@ -1,5 +1,13 @@
 ## ETL-Implementation Project
+
 Data Warehouse and ETL Implementation
+
+Project ini merupakan tugas akhir dari ID/X Partners Data Engineer Virtual Internship Program yang diselenggarakan oleh Rakamin Academy.
+Melalui program ini saya mempelajari berbagai hal tentang Data Engineer job terutama dalam proses ETL menggunakan Talend dan juga penggunaan 
+SQL Server untuk Data Engineer. Pada project ini para peserta di berikan case untuk menjalankan sebuah proses dari mendapatkan data hingga menggunakan data 
+dalam bentuk _Store Procedure_ di SQL Server untuk suatu keperluan.
+
+
 Case Study
 
 <img width="445" alt="image" src="https://github.com/syachmhrd/ETL-Implementation/assets/71867027/d9cf42ad-50cb-4348-93c2-2eb36ad86e2a">
